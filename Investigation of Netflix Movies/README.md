@@ -85,4 +85,4 @@ investigation-of-netflix-movies/
 This project provides an in-depth analysis of the Netflix dataset to determine if movie durations are getting shorter. Through exploratory data analysis and hypothesis testing, we aim to uncover trends and factors influencing movie lengths on Netflix.
 
 # Acknowledgments
-Special thanks to DataCap who provided the initial research and dataset, and to the developers of the Python libraries used in this project.
+Special thanks to DataCamp who provided the initial research and dataset, and to the developers of the Python libraries used in this project.
