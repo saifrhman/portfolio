@@ -48,6 +48,7 @@ The following tools and libraries are used in this project:
 
 - **Python**: The primary programming language for the analysis.
 - **Pandas**: For data manipulation and analysis.
+- **SciPy**: For data technical and scientific computing.
 - **Matplotlib**: For data visualization.
 
 ## Project Structure
