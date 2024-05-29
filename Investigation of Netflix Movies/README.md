@@ -79,8 +79,32 @@ investigation-of-netflix-movies/
 - **requirements.txt**: List of dependencies required for the project.
 
 
+## Analysis of Netflix Data
+# Distribution of movies in the 1990s
+The histogram in the notebook shows the distribution of movie durations for Netflix movies released in the 1990s. The distribution gives us an idea of how long movies typically were during this decade.
+# Counting Short Action Movies
+Short action movies are defined as those with a duration of less than 90 minutes. We used two methods to count the number of short action movies released in the 1990s.
+
+Using a for loop and a counter:
+
+Number of short action movies: 8
+Using the .sum() method for quicker counting:
+
+Number of short action movies: 8
+Both methods yielded the same result, confirming the consistency and accuracy of our data handling and analysis.
+
 # Conclusion
-This project provides an in-depth analysis of the Netflix dataset to determine if movie durations are getting shorter. Through exploratory data analysis and hypothesis testing, we aim to uncover trends and factors influencing movie lengths on Netflix.
+Based on the analysis of the Netflix dataset for movies released in the 1990s, we can conclude the following:
+
+Most Frequent Movie Duration:
+
+The most frequent movie duration in the 1990s was approximately 100 minutes.
+Short Action Movies:
+
+A movie is considered short if it is less than 90 minutes. There were 8 short action movies released in the 1990s.
+The histogram provides a clear visualization of the distribution of movie durations during this period, with the most common duration being around 100 minutes. This analysis helps in understanding the trends and patterns in movie durations over a specific decade and can be extended to other genres and time periods for a more comprehensive study.
+
+This analysis helps in understanding the trends and patterns in movie durations over a specific decade and can be extended to other genres and time periods for a more comprehensive study.
 
 # Acknowledgments
 Special thanks to DataCamp who provided the initial research and dataset, and to the developers of the Python libraries used in this project.
