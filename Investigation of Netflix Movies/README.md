@@ -99,6 +99,7 @@ Based on the analysis of the Netflix dataset for movies released in the 1990s, w
 Most Frequent Movie Duration:
 
 The most frequent movie duration in the 1990s was approximately 100 minutes.
+
 Short Action Movies:
 
 A movie is considered short if it is less than 90 minutes. There were 8 short action movies released in the 1990s.
