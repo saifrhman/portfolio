@@ -1,22 +1,19 @@
 import pandas as pd
 
-# Load the dataset
-df = pd.read_csv('data/netflix_data.csv')
+# Read in the Netflix CSV as a DataFrame
+netflix_df = pd.read_csv("netflix_data.csv")
 
-# Inspect the dataset
-print("Dataset Info:")
-print(df.info())
-print("\nSummary Statistics:")
-print(df.describe())
+# Subset the DataFrame for type "Movie"
+netflix_subset = netflix_df[netflix_df["type"] == "Movie"]
 
-# Handle missing values (optional)
-# For this project, handling missing values is out of scope. If needed, uncomment the following line:
-# df = df.dropna()
+# Filter to keep only movies released in the 1990s
+# Start by filtering out movies that were released before 1990
+subset = netflix_subset[(netflix_subset["release_year"] >= 1990)]
 
-# Convert data types where necessary
-df['date_added'] = pd.to_datetime(df['date_added'])
+# And then do the same to filter out movies released on or after 2000
+movies_1990s = subset[(subset["release_year"] < 2000)]
 
-# Save the cleaned data (optional)
-df.to_csv('data/netflix_data_cleaned.csv', index=False)
+# Save the filtered dataset
+movies_1990s.to_csv('data/movies_1990s.csv', index=False)
 
 print("Data preparation is complete.")
