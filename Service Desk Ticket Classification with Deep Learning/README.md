@@ -10,10 +10,10 @@ This project aims to classify service desk tickets into categories using a Convo
 
 The project is organized as follows:
 
-*Data Loading*: Load and prepare the training and testing datasets.
-*Model Definition*: Define a CNN classifier with the necessary layers.
-*Training*: Train the classifier on the training data.
-*Evaluation*: Evaluate the classifier on the test data and calculate performance metrics.
+* Data Loading: Load and prepare the training and testing datasets.
+* Model Definition: Define a CNN classifier with the necessary layers.
+* Training: Train the classifier on the training data.
+* Evaluation: Evaluate the classifier on the test data and calculate performance metrics.
 
 # Model Architecture
 The CNN classifier is defined with the following layers:
@@ -48,3 +48,7 @@ The metrics are printed at the end of the evaluation phase.
 # Conclusion
 
 This project demonstrates the use of a CNN for classifying service desk tickets into various categories, helping streamline customer support services. The defined model and its training process can serve as a template for similar text classification tasks.
+
+# Acknowledgement
+
+Special thanks to DataCamp who provided the initial research and dataset, and to the developers of the Python libraries used in this project.
