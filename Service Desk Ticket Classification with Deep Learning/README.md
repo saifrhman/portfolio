@@ -2,7 +2,7 @@
 CleverSupport is a company at the forefront of AI innovation, specializing in the development of AI-driven solutions to enhance customer support services. Their latest endeavor is to engineer a text classification system that can automatically categorize customer complaints.
 
 # Project Overview
-CeverSupport is a company at the forefront of AI innovation, specializing in developing AI-driven solutions to enhance customer support services. Their latest endeavor is to engineer a text classification system that can automatically categorize customer complaints. As a data scientist, your role involves creating a sophisticated machine learning model to accurately assign complaints to specific categories, such as mortgage, credit card, money transfers, debt collection, etc.
+CleverSupport is a company at the forefront of AI innovation, specializing in developing AI-driven solutions to enhance customer support services. Their latest endeavor is to engineer a text classification system that can automatically categorize customer complaints. As a data scientist, your role involves creating a sophisticated machine learning model to accurately assign complaints to specific categories, such as mortgage, credit card, money transfers, debt collection, etc.
 
 This project aims to classify service desk tickets into categories using a Convolutional Neural Network (CNN) to streamline customer services.
 
