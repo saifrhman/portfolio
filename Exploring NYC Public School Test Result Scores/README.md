@@ -32,12 +32,16 @@ The data was processed to:
 
 The following visualizations were created to support the analysis:
 
-1. **Best Math Schools**: Bar chart of schools with the highest average math scores.
-2. **Top 10 Performing Schools**: Bar chart of the top 10 schools based on total SAT scores.
-3. **Borough with Largest Standard Deviation in SAT Scores**: Bar chart showing the borough with the highest variability in SAT scores.
-4. **Distribution of SAT Scores**: Histogram showing the distribution of total SAT scores across all schools.
-5. **Average Total SAT Scores by Borough**: Bar chart showing the average total SAT scores by borough.
-6. **Number of Schools by Borough**: Bar chart showing the number of schools in each borough.
+1. **Best Math Schools**: Bar chart of schools with the highest average math scores.![image](https://github.com/Saif-Ur-Rehmn/portfolio/assets/62953610/ec00f29c-c412-4905-9788-10341c93f834)
+
+2. **Top 10 Performing Schools**: Bar chart of the top 10 schools based on total SAT scores.![image](https://github.com/Saif-Ur-Rehmn/portfolio/assets/62953610/ce2ee041-bc56-4793-b789-b015417f9a3e)
+
+3. **Distribution of SAT Scores**: Histogram showing the distribution of total SAT scores across all schools.![image](https://github.com/Saif-Ur-Rehmn/portfolio/assets/62953610/eedfd0ef-961c-4173-ac45-6a77fd57faf7)
+
+4. **Average Total SAT Scores by Borough**: Bar chart showing the average total SAT scores by borough.![image](https://github.com/Saif-Ur-Rehmn/portfolio/assets/62953610/0b2067f6-a93b-4cfb-a251-1227afc248ad)
+
+5. **Number of Schools by Borough**: Bar chart showing the number of schools in each borough.![image](https://github.com/Saif-Ur-Rehmn/portfolio/assets/62953610/ef1f1570-ce00-4d51-aabe-6fd9f5bb3716)
+
 
 ## Results
 
@@ -90,6 +94,3 @@ SAT scores significantly influence college admissions by serving as a standardiz
 
 This analysis provides valuable insights into SAT performance across NYC public schools, highlighting top-performing schools and borough trends. Understanding these patterns can aid policymakers, educators, and parents in making informed decisions to improve educational outcomes and support student success in college admissions.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
